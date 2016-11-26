@@ -1,2 +1,4 @@
 .idea
+dist
+django_privacyidea_auth.egg-info
 *.pyc
