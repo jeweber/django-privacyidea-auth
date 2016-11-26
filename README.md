@@ -4,6 +4,17 @@ Django privacyIDEA authentication backend
 
 Authenticate against a privacyIDEA server. (https://www.privacyidea.org/)
 
+
+Install
+-------
+
+    virtualenv --python=python3.5 Django_python3.5
+    source Django_python3.5/bin/activate
+    pip list
+    git clone https://github.com/jeweber/django-privacyidea-auth.git
+    pip install django-privacyidea-auth/
+
+
 Quick start
 -----------
 
