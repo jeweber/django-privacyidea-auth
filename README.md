@@ -32,6 +32,7 @@ Add the following to your project/settings.py:
         'create_user' : False,
         'update_attributes': True,
         'realm': None,
+        'enforce_realm': False,
         }
 
 'url': url of privacyIDEA server to validate the user
@@ -44,4 +45,6 @@ Add the following to your project/settings.py:
 
 'update_attributes': if set to True, the user attributes in the django DB will be updated, if privacyidea samlcheck returns user attributes
 
-'realm': if set, the realm of the user, who tries to authenticate. If the realm is None, the user is looked up in the default realm.
+'realm': if set, the realm of the user, who tries to authenticate. If the realm is None, the user is looked up in the default realm
+
+'enforce_realm': if set, login name must contains '@' too separates realm from the username
